@@ -17,6 +17,7 @@ Bundler.require(*Rails.groups)
 
 module DemoVideoStreaming
   class Application < Rails::Application
+    config.serve_static_assets = true
 
 
     # Settings in config/environments/* take precedence over those specified here.
