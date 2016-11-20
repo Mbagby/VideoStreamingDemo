@@ -35,7 +35,7 @@ gem "jquery-slick-rails"
 
 gem 'brightcove-api'
 
-
+gem 'rails_12factor', group: :production
 # Use Unicorn as the app server
 # gem 'unicorn'
 
