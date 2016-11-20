@@ -1,0 +1,21 @@
+<div class="banner">
+  <div>
+  </div>
+</div>
+
+
+<div id= "content">
+<div>
+</div>
+<div>
+
+<div>
+<h1>Topics#Index</h1>
+
+      <% @topics.each do |topic| %>
+
+      <%= link_to topic.title, topic_path(topic.id), :class => "item"%>
+      <%end%>
+</div>
+
+</div>

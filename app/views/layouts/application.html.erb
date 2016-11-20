@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BoxSpring</title>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+
+
+</head>
+
+<body>
+
+
+
+<div id="entire">
+
+
+<div class="pusher" id= "topMenu">
+	<div class="full height">
+		<div class ="following bar">
+				<div class="ui large secondary network menu">
+
+      <a class="view-ui item fitted" id= 'browse'> 
+        <i class="sidebar icon"></i> Browse
+      </a>
+
+      <div class="ui left fixed vertical menu inverted" id="sideMenu">
+  		  <div class="item fitted">
+    	   </div>
+      <a class="item" id = "leftFloat"><i class="sidebar icon"></i></a>
+      <a class="item" id = "leftFloat"><%= link_to 'Home', categories_path, :class => "item"%></i></a>
+      <a class="item" id = "leftFloat">Categories</a>
+      <% @categories.each do |category| %>
+      <a class="item" ><%= link_to category.title, category_path(category.id), :class => "item", :style => 'margin-left: 60px;'%></a>
+      <%end%>
+      <a class = 'item'></a>
+            <a class="item" id = "leftFloat">Topics</a>
+      <a class="item" id = "leftFloat">Join The Conversation</a>
+	  </div>
+
+          <div id= "logo" class="item fitted">
+        <div class="ui logo shape">
+          <div class="sides">
+            <div class="active ui side">
+              <img class="ui image" src="<%= asset_path('BoxSpringLogo.jpg')%>">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="right menu" id ="rightMenu">
+        <div class="ui simple dropdown item fitted">
+          <i class="user icon"></i>
+          <div class="text"><%=@user.first_name%> <%=@user.last_name%></div>
+          <div class="menu">
+           	<div class="item">Profile</div>
+      		<div class="item">Assignments</div>
+      		<div class="item">Activity</div>
+      		<div class="item">Messages</div>
+      		<div class="item">Settings</div>
+      		<div class="item">Logout</div>
+          </div>
+          </div>
+        </div>
+
+
+
+		</div>
+    </div>
+  </div>
+</div>
+
+
+
+<%= yield %>
+</div>
+<div id = "footer">
+  <div class ="footerItem">About Us</div>
+  <div class ="footerItem">Contact</div>
+  <div class ="footerItem">Costumer Service</div>
+  <div id= "lastItem" class ="footerItem">Boxspring Entertainment &#169; 2016 </div>
+</div>
+</body>
+
+
+</html>

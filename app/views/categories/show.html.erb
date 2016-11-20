@@ -1,0 +1,121 @@
+<div class="banner">
+  <div>
+  </div>
+</div>
+
+
+<div id= "content">
+  <%= link_to category_path(@category) do %>
+      <h1 id ="formatHeaderShow"><%=@category.title%></h1>
+    <%end%>
+  <div class= "seasonShow"> 
+    <div id= "<%=@season.snap_shot%>">
+    <div id = "previewNow">
+      <button class="ui basic small button" id= "preview">
+       Preview Series
+      </button>
+
+    </div>
+    <div id= "episodeRow">
+    <% @episodes.each do |episode| %>
+      <%if episode.series_id == @season.series_id  %>
+        <div class = "square">
+          <div id ="<%=episode.snap_shot%>">
+          </div>
+          <div class = "belowText">
+            <div id = "episode">
+              <%= link_to episode.description, episode_path(episode.id)%>
+            </div>
+            <div id = "episodeTitle">
+              <%= link_to episode.title, episode_path(episode.id)%>
+           </div>
+          </div>
+        </div>
+      <%end%>
+    <%end%>
+    </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="topicShow">
+  </div>
+
+</div>
+
+
+
+
+<div id = "tools">
+  <h1 id ="toolsHeader">TOOLS</h1>
+  <p>Thoughfully curated, the following audio books, podcasts, games, VR short films, and immersive content pieces ought to provide any type of learner an engaging way to learn more about this subject.</p>
+   <%= image_tag "SocMePic", :class => 'SocMe'%>
+
+   <%= image_tag "LinkedInPic", :class => 'LinkedIn'%>
+</div>
+
+
+<div id = "convo">
+  <h1 >Join The Conversation</h1>
+  <p>Many of us enjoy discussion what we are learning with others, so we've created a safe are for engagement. Please talk to your manager if this area requires "unlocking". In addition, on your own person platforms you can use the # tag from the list provided and automatically join groups on twitter and other platforms that are hosting these discussions.</p>
+
+</div>
+
+
+
+
+
+
+<div class="ui basic modal" id ="clicky">
+  <i class="close icon"></i>
+  <div class="header">
+    
+  <%if (@category.category_id == 1)%>
+  The HR Files
+  </div>
+<!--       <embed class ="videoSize" src="http://players.brightcove.net/5136026587001/default_default/index.html?videoId=5155997214001"></embed> -->
+  <%elsif (@category.category_id == 3)%>
+  Hacks
+  </div>
+<!--     <embed class ="videoSize"  src="http://players.brightcove.net/5136026587001/default_default/index.html?videoId=5155962532001"></embed> -->
+  <%elsif (@category.category_id == 4)%>
+  Sea Knot
+  </div>
+<!--     <embed class ="videoSize"  src="http://players.brightcove.net/5136026587001/default_default/index.html?videoId=5155997179001"></embed> -->
+    <%end%>
+  </div>
+
+
+
+  
+
+   <div class="ui basic modal" id ="tool1">
+  <i class="close icon"></i>
+  <div class="header">
+    
+  Introduction To The SOCME Academy:
+  </div>
+  
+<!-- <embed class ="videoSize" src="http://players.brightcove.net/5136026587001/default_default/index.html?videoId=5155973531001"></embed> -->
+
+  </div>
+  
+
+   <div class="ui basic modal" id ="tool2">
+  <i class="close icon"></i>
+  <div class="header">
+    
+  How To Use LinkedIn Effectively:
+  </div>
+<!--   <embed class ="videoSize"  src="http://players.brightcove.net/5136026587001/default_default/index.html?videoId=5155997193001"></embed> -->
+  
+  </div>
+
+
+
+
+
+
+
+
+

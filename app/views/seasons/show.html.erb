@@ -1,0 +1,22 @@
+
+<div class="banner">
+  <div>
+  </div>
+</div>
+
+
+<div id= "content" class= "<%=@season.snap_shot%>">
+<div class = "rows">
+      <div class= "row">
+      	<% @episodes.each do |episode| %>    	
+     		<div class = "square">
+     			<div id = "snapshot" class= "<%=episode.snap_shot%>">
+      			<%= link_to episode.title, episode_path(episode.id)%>
+      			</div>
+      		</div>
+
+     		<%end%>
+      
+      </div>
+</div>
+</div>

@@ -1,0 +1,588 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+  
+ */
+
+
+
+@import "semantic-ui";
+
+
+body { position:relative;
+	color: #7C7D7E;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
+#tools{
+	text-align: center;
+	color: white;
+	background-color: #7C7D7E;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	position: relative;
+	h1{
+		font-weight: 200;
+		font-size: 23px;
+	}
+	p{
+		padding-top: 10px;
+		font-size: 16px;
+		font-weight: 200;
+		padding-left: 175px;
+		padding-right: 175px;
+		padding-bottom: 10px;
+	}
+	img{
+		width: 50%;
+	margin: auto;
+	display: block;
+	margin-bottom: 20px;
+
+	}
+}
+#convo{
+	text-align: center;
+	margin-right: 150px;
+	margin-left: 150px;
+	position: relative;
+	h1{
+		text-transform: uppercase;
+		margin-bottom: 20px;
+		margin-top: 25px;
+		font-weight: 200;
+	}
+	p{
+		font-weight: 200;
+		margin-bottom: 25px;
+	}
+}
+
+
+#footer{
+	margin-top: 50px;
+	float: bottom;
+	margin-left: 250px;
+	.footerItem{
+		display: inline-block;
+		width: 250px;
+		text-transform: uppercase;
+		font-weight: 200;
+		font-size: 12px;
+	}
+}
+
+.item.tab{
+	margin-left: 40px;
+}
+#quizSubmit{
+	float: right;
+	margin-right: 150px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: white;
+}
+
+#quiz{
+	margin-top: 150px;
+	background-image: url("HRQuiz.jpg");
+		background-size: cover;
+		width: 100%;
+		height: 700px;
+}
+#question{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 40%;
+	font-size: 16px;
+	margin-left: 100px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 35px;
+}
+#answers{
+	margin-top: 20px;
+}
+
+
+#browse{
+	margin-left: 15px;
+};
+#rightMenu{
+	margin-right: 15px;
+};
+
+/*Category#Show*/
+
+#preview{
+    	 text-transform: uppercase;
+    	font-weight: 900;
+}
+.seasonShow{
+	width: 100%;
+	height: 900px;
+	position: relative;
+	#previewNow{
+		position: absolute;
+    	bottom: 425px;
+    	left: 61px;
+	}
+	#episodeRow{
+		position: absolute;
+		height:370px;
+		width: 100%;
+		bottom: 0;
+		overflow: hidden;
+		margin-left: 61px;
+		margin-bottom: 35px;
+	 .square{
+	 	display: inline-block;
+	 	vertical-align: bottom;
+		display: inline-block;
+		height: 380px;
+		width: 190px;
+		margin-right: 85px;
+		overflow: hidden;
+			.belowText{
+				font-weight: 200;
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-size: 15px;
+				a { 
+					color: #7C7D7E;
+				}
+				#episode{
+					font-size: 20px;
+					font-weight: 400;
+					margin-top: 10px;
+					text-transform: uppercase;
+					font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+				}
+				#episodeTitle{
+					font-size: 18px;
+					margin-top: 20px;
+					font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+				}
+
+
+			}
+		}
+	}
+}
+#TheHRFiles{
+	background-image: url("HRFiles");
+	height: 900px;
+	background-size: cover;
+}
+#Hacks{
+	background-image: url("Hacks");
+	height: 900px;
+	background-size: cover;
+}
+#SeaKnot{
+	background-image: url("SeaKnot");
+	height: 900px;
+	background-size: cover;
+}
+
+#formatHeaderShow{
+	font-weight: 100;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	margin-top: 95px;
+	color: #7C7D7E;
+	font-size: 24px;
+}
+
+
+/*Episodes*/
+#SexualHarassment{
+	background-image: url("SexualHarassment");
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+}
+#EqualOpportunityEmployer{
+	background-image: url("EqualOpportunityEmployer");
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+}
+#VettingEmployees{
+	background-image: url("VettingEmployees");
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+}
+#BusinessBarBrawls{
+	background-image: url("BusinessBarBrawls");
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+}
+#WhenPoliticiansOughtToStayHome{
+	background-image: url("WhenPoliticiansOughtToStayHome");
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+}
+#SecurePasswords{
+	background-image: url("SecurePasswords");
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+}
+#Phishing{
+	background-image: url("Phishing");
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+}
+#SecuringYourComputer{
+	background-image: url("SecuringYourComputer");
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+}
+#IdentifyYourID{
+	background-image: url("IdentifyYourID");
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+}
+#ToePrintsAreIT{
+	background-image: url("ToePrintsAreIT");
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+}
+#UnconsciousIncompetence{
+	background-image: url("UnconsciousIncompetence");
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+}
+#ConsciousIncompetence{
+	background-image: url("ConsciousIncompetence");
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+}
+#ConsciousCompetence{
+	background-image: url("ConsciousCompetence");
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+}
+#InvisibleMatter{
+	background-image: url("InvisibleMatter");
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+}
+#SignsofNothing{
+	background-image: url("SignsofNothing");
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+}
+
+/*Category#Show*/
+
+/*Categories#Index*/
+
+#formatHeader{
+	font-weight: 100;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	color: #7C7D7E;
+}
+#logo{
+	display: block;
+  	margin-left: auto;
+}
+.ui.image{
+	  	height: 100px;
+  	width: 100px;
+}
+.ui.secondary.menu .item{
+	font-size: 17px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #7C7D7E;
+}
+
+.rows{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 125px;
+	color: #7C7D7E;
+	text-transform: uppercase;
+	.row{
+		margin-bottom: 5px;
+		overflow: hidden;
+	}
+};
+
+/*CatgoriesImages*/
+#EthicsAndCompliance{
+	background-image: url("EthicsAndCompliance");
+	background-size: cover;
+	height: 500px;
+	color: #7C7D7E;
+};
+
+#Technology{
+	background-image: url("Technology");
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+	color: #7C7D7E;
+};
+#Consciousness{
+	background-image: url("Consciousness");
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+	color: #7C7D7E;
+};
+
+/*SeasonsImages*/
+
+
+/*Categories#Index*/
+
+
+
+
+
+
+
+
+#snapshot{
+				background-image: url("GreenSparkly");
+				width: 255px;
+				height: 175px;
+				a{
+					color: white;
+					float: right;
+					margin-right: 5px;
+					margin-top: 5px;
+					background-color: #7C7D7E;
+					opacity: .9;
+					border-radius: 2px;
+					padding-right: 3px;
+					padding-left: 3px;
+					padding-top:2px;
+					padding-bottom: 2px;
+				}
+			}
+.videoSize{
+	width:100%;
+	height: 508px;
+}
+.videoLarge{
+	height:740px;
+	width: 100%;
+	position: relative;
+	margin-top: 125px;
+}
+
+.bannerVideo{
+	background-image: url("GreenSparkly.jpg");
+	background-size: cover;
+	float: center;
+	height: 60%;
+	width: 100%; 
+
+};
+.allEpisodes{
+	height: 100%;
+	width: 100%;
+	margin-top: 2%;
+	.square{
+			display: inline-block;
+			border:1px solid #7C7D7E;
+			margin-right: 5px;
+			margin-left: 5px;
+			margin-bottom: 25px;
+			margin-top: 5px;
+			.snapshot{
+				background-image: url("GreenSparkly");
+				width: 255px;
+				height: 175px;
+				a{
+					color: white;
+					float: right;
+					margin-right: 5px;
+					margin-top: 5px;
+					background-color: #7C7D7E;
+					opacity: .9;
+					border-radius: 2px;
+					padding-right: 3px;
+					padding-left: 3px;
+					padding-top:2px;
+					padding-bottom: 2px;
+				}
+			}
+		}
+}
+
+
+
+
+/*SignUp and Login*/
+
+#colorFix{
+	border-color: white;
+	.ui.form .field.field {
+		border-color: gray;
+	}
+
+}
+#bottomMenu{
+		display: none !important;
+		}
+	#homeHeadingShort{
+		display: none !important;
+	}
+	.pictureBackground{
+		background-image: url("LoginBackground");
+		background-repeat:no-repeat;
+		background-size: cover;
+		float: center;
+		height: 100%;
+		width: 100%;  
+		.ui.large.form{
+			background-color: white;
+			border-radius: 3px;
+		}
+		#pageContent{
+			#linkTo{
+				width:89%;
+				margin: 0 auto;
+			}
+			#boxSignup{
+				width: 89%;
+				float: center;
+				margin: 0 auto;
+				margin-bottom: 10px;
+			}
+			.field{
+				font-size: 15px;
+			}
+			p a {
+				font-size: 12px;
+			}
+			a {
+				color:#7C7D7E;
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-size: 12px;
+				float: right;
+			}
+			.alignCenter{
+				text-align: center;
+			}
+			#loginButton{
+				background-color: white;
+				border: 1px solid #7C7D7E;
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color: #7C7D7E;
+				font-size: 20px;
+			}	
+			#signupHead{
+				margin-top: 100px;
+				color: #7C7D7E;
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-size: 25px;
+				padding-left: 20px;
+				padding-top: 6px;
+				padding-bottom: 7px;
+				padding-right:20px;
+			}
+			#loginSignupHead{
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				margin-top: 350px;
+				color: #7C7D7E;
+				font-size: 22px;
+				padding-left: 20px;
+				padding-top: 15px;
+				padding-bottom: 7px;
+				padding-right:20px;
+			}
+			.content{
+				background-color: white;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				padding-right: 10px; 
+				padding-left:10px; 
+				border-radius: 3px;
+				font-family: 'Open Sans', sans-serif;
+				.description{
+					font-size: 20px;
+				}
+			}
+		}	
+	}
+
+
+/*Index Users Page*/
+
+
+#sideMenu{
+	opacity: .9;
+	position: fixed;
+	left: 0px;
+	width: 300px;
+	float: left;
+
+};
+
+
+#topMenu{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: white;
+};
+
+#scrolled{
+	background-color: white;
+	opacity: .9;
+};
+
+
+
+

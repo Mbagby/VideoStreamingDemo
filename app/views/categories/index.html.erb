@@ -1,0 +1,28 @@
+
+
+
+
+
+<div id= "content">
+	<div class = "rows">
+		<% @categories.each do |category| %>
+			<div class ="row">
+				<%= link_to category_path(category) do %>
+					<h1 id ="formatHeader"><%=category.title%></h1>
+				<%end%>
+					<%= link_to category_path(category) do %>
+ 						<div class = "banner" id= "<%=category.snap_shot%>">
+						</div>
+					<%end%>
+			</div>
+		<%end%>
+	</div>
+</div>
+
+
+
+            
+
+
+
+

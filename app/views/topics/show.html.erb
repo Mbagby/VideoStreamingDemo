@@ -1,0 +1,33 @@
+<div class="banner">
+  <div>
+  </div>
+</div>
+
+
+
+
+<div id= "content">
+<div class = "rows">
+
+      <% @seasons.each do |season| %>
+      <div class= "row">
+      	<div class = "headerCat">
+      	<%= link_to season.title, season_path(season.id)%>
+      	</div>
+      	<% @episodes.each do |episode| %>
+      		<%if episode.series_id == season.series_id  %>
+      	
+     		<div class = "square">
+     			<div class = "snapshot">
+      			<%= link_to episode.title, episode_path(episode.id)%>
+      			</div>
+      		</div>
+
+     		<%end%>
+      <%end%>
+      
+      </div>
+      <%end%>
+      
+</div>
+</div>
