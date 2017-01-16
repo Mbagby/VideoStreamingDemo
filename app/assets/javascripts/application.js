@@ -28,16 +28,16 @@ $('.ui.radio.checkbox')
   .checkbox()
 ;
 
-$('#preview').click(function(){
-	$('#clicky').modal('show');
-  	$('.videoSize').get(0).play();
-});
+// $('#preview').click(function(){
+// 	$('#clicky').modal('show');
+//   	$('.videoSize').get(0).play();
+// });
 
-$('body').click(function(){
-	if ($('#clicky').hasClass('visible'){
-		$('.videoSize').get(0).pause();
-		}else{}
-	});
+// $('body').click(function(){
+// 	if ($('#clicky').hasClass('visible')){
+// 		$('.videoSize').get(0).pause();
+// 		}else{}
+// 	});
 
 $('.SocMe').click(function(){
 	$('#tool1').modal('show');
