@@ -34,7 +34,7 @@ $('#preview').click(function(){
 });
 
 $('body').click(function(){
-	if ($('#clicky').hasClass('visible')){
+	if ($('#clicky').hasClass('visible'){
 		$('.videoSize').get(0).pause();
 		}else{}
 	});
