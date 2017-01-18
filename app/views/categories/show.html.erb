@@ -24,10 +24,10 @@
           </div>
           <div class = "belowText">
             <div id = "episode">
-              <%= link_to episode.description, episode_path(episode.id)%>
+<!--               <%= link_to episode.description, episode_path(episode.id)%> -->
             </div>
             <div id = "episodeTitle">
-              <%= link_to episode.title, episode_path(episode.id)%>
+<!--               <%= link_to episode.title, episode_path(episode.id)%> -->
            </div>
           </div>
         </div>
@@ -49,9 +49,15 @@
 <div id = "tools">
   <h1 id ="toolsHeader">TOOLS</h1>
   <p>Thoughfully curated, the following audio books, podcasts, games, VR short films, and immersive content pieces ought to provide any type of learner an engaging way to learn more about this subject.</p>
+  <%if (@category.category_id == 1)%>
+     <%= image_tag "LowCQPic", :class => 'SocMe'%>
+
+   <%= image_tag "HighCQPic", :class => 'LinkedIn'%>
+  <%elsif (@category.category_id == 3)%>
    <%= image_tag "SocMePic", :class => 'SocMe'%>
 
    <%= image_tag "LinkedInPic", :class => 'LinkedIn'%>
+   <%end%>
 </div>
 
 
@@ -60,6 +66,58 @@
   <p>Many of us enjoy discussion what we are learning with others, so we've created a safe are for engagement. Please talk to your manager if this area requires "unlocking". In addition, on your own person platforms you can use the # tag from the list provided and automatically join groups on twitter and other platforms that are hosting these discussions.</p>
 
 </div>
+
+
+
+
+
+
+
+
+
+
+  
+
+   <div class="ui basic modal" id ="tool1">
+  <i class="close icon"></i>
+  <div class="header">
+    
+  Introduction To The SOCME Academy:
+  </div>
+<iframe src="//iframe.dacast.com/b/83869/f/366043" width="854" height="480" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+  </div>
+  
+
+   <div class="ui basic modal" id ="tool2">
+  <i class="close icon"></i>
+  <div class="header">
+    
+  How To Use LinkedIn Effectively:
+  </div>
+
+<iframe src="//iframe.dacast.com/b/83869/f/366041" width="854" height="480" frameborder="0" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+  </div>
+
+
+<!-- Low CQ -->
+<div class="ui basic modal" id ="tool3">
+  <i class="close icon"></i>
+  <div class="header">
+  Low CQ:
+  </div>
+<iframe src="//iframe.dacast.com/b/83869/f/365338" width="854" height="480" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</div>
+
+<!-- High CQ -->
+   <div class="ui basic modal" id ="tool4">
+  <i class="close icon"></i>
+  <div class="header"> 
+  High CQ:
+  </div>
+<iframe src="//iframe.dacast.com/b/83869/f/365337" width="854" height="480" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+  </div>
+
 
 
 
@@ -86,39 +144,6 @@
 
     <%end%>
   </div>
-
-
-
-  
-
-   <div class="ui basic modal" id ="tool1">
-  <i class="close icon"></i>
-  <div class="header">
-    
-  Introduction To The SOCME Academy:
-  </div>
-<iframe src="//iframe.dacast.com/b/83869/f/366043" width="854" height="480" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-  </div>
-  
-
-   <div class="ui basic modal" id ="tool2">
-  <i class="close icon"></i>
-  <div class="header">
-    
-  How To Use LinkedIn Effectively:
-  </div>
-
-<iframe src="//iframe.dacast.com/b/83869/f/366041" width="854" height="480" frameborder="0" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-  
-  </div>
-
-
-
-
-
-
 
 
 
