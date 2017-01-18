@@ -50,10 +50,10 @@
   <h1 id ="toolsHeader">TOOLS</h1>
   <p>Thoughfully curated, the following audio books, podcasts, games, VR short films, and immersive content pieces ought to provide any type of learner an engaging way to learn more about this subject.</p>
   <%if (@category.category_id == 1)%>
-     <%= image_tag "LowCQPic", :class => 'SocMe'%>
+     <%= image_tag "LowCQPic", :class => 'LowCQ'%>
 
-   <%= image_tag "HighCQPic", :class => 'LinkedIn'%>
-  <%elsif (@category.category_id == 3)%>
+   <%= image_tag "HighCQPic", :class => 'HighCQ'%>
+  <%elsif (@category.category_id == 3 || 4)%>
    <%= image_tag "SocMePic", :class => 'SocMe'%>
 
    <%= image_tag "LinkedInPic", :class => 'LinkedIn'%>
