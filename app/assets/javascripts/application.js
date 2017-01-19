@@ -39,6 +39,7 @@ $('#preview').click(function(){
 // 		}else{}
 // 	});
 
+document.getElementsByClassName('LowCQ').modal('show');
 
 $('.LowCQ').click(function(){
 	$('#tool3').modal('show');
