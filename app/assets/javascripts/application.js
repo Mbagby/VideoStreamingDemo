@@ -66,21 +66,21 @@ $('.LowCQ').click(function(){
   	$('.videoSize').get(0).play();
 });
 
-$('body').click(function(){
-	if ($('#tool3').hasClass('visible')){
-		$('.videoSize').get(0).pause();
-		}else{}
-	});
+// $('body').click(function(){
+// 	if ($('#tool3').hasClass('visible')){
+// 		$('.videoSize').get(0).pause();
+// 		}else{}
+// 	});
 $('.HighCQ').click(function(){
 	$('#tool4').modal('show');
   	$('.videoSize').get(0).play();
 });
 
-$('body').click(function(){
-	if ($('#tool4').hasClass('visible')){
-		$('.videoSize').get(0).pause();
-		}else{}
-	});
+// $('body').click(function(){
+// 	if ($('#tool4').hasClass('visible')){
+// 		$('.videoSize').get(0).pause();
+// 		}else{}
+// 	});
 
 
 
