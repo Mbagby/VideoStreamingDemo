@@ -39,6 +39,12 @@ $('#preview').click(function(){
 // 		}else{}
 // 	});
 
+
+$('.LowCQ').click(function(){
+	$('#tool3').modal('show');
+  	$('.videoSize').get(0).play();
+});
+
 $('.SocMe').click(function(){
 	$('#tool1').modal('show');
   	$('.videoSize').get(0).play();
@@ -61,10 +67,6 @@ $('body').click(function(){
 		}else{}
 	});
 
-$('.LowCQ').click(function(){
-	$('#tool3').modal('show');
-  	$('.videoSize').get(0).play();
-});
 
 // $('body').click(function(){
 // 	if ($('#tool3').hasClass('visible')){
