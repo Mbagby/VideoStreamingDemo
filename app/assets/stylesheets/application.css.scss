@@ -130,6 +130,11 @@ body { position:relative;
 #preview{
     	 text-transform: uppercase;
     	font-weight: 900;
+    	.ui.basic.button{
+    		background-color: red;
+    		font-size: 20px;
+    		color: white;
+    	}
 }
 .seasonShow{
 	width: 100%;
@@ -137,8 +142,8 @@ body { position:relative;
 	position: relative;
 	#previewNow{
 		position: absolute;
-    	bottom: 425px;
-    	left: 61px;
+    	bottom: 33%;
+    	left: 5%;
 	}
 	#episodeRow{
 		position: absolute;
