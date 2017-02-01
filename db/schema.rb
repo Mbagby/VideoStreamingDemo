@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 20160929183509) do
     t.string   "snap_shot"
   end
 
+  
   create_table "episodes", force: :cascade do |t|
     t.integer  "episode_id"
     t.integer  "series_id"
