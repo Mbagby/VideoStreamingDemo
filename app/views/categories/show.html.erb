@@ -21,7 +21,7 @@
     <% @episodes.each do |episode| %>
       <%if episode.series_id == @season.series_id  %>
         <div class = "square">
-          <div id ="<%=episode.snap_shot%>">
+          <div class = "episodeImage" id ="<%=episode.snap_shot%>">
           </div>
           <div class = "belowText">
             <div id = "episode">
