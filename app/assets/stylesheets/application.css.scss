@@ -152,8 +152,8 @@ body { position:relative;
 	 	display: inline-block;
 	 	vertical-align: bottom;
 		display: inline-block;
-		height: 380px;
-		width: 190px;
+		height: 180px;
+		width: 340px;
 		margin-right: 85px;
 		overflow: hidden;
 			.belowText{
@@ -428,38 +428,6 @@ body { position:relative;
 	width: 100%; 
 
 };
-.allEpisodes{
-	height: 100%;
-	width: 100%;
-	margin-top: 2%;
-	.square{
-			display: inline-block;
-			border:1px solid #7C7D7E;
-			margin-right: 5px;
-			margin-left: 5px;
-			margin-bottom: 25px;
-			margin-top: 5px;
-			.snapshot{
-				background-image: url("GreenSparkly");
-				width: 255px;
-				height: 175px;
-				a{
-					color: white;
-					float: right;
-					margin-right: 5px;
-					margin-top: 5px;
-					background-color: #7C7D7E;
-					opacity: .9;
-					border-radius: 2px;
-					padding-right: 3px;
-					padding-left: 3px;
-					padding-top:2px;
-					padding-bottom: 2px;
-				}
-			}
-		}
-}
-
 
 
 
