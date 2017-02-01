@@ -146,20 +146,25 @@ body { position:relative;
 		width: 100%;
 		bottom: 0;
 		overflow: hidden;
-		margin-left: 61px;
-		margin-bottom: 35px;
+		margin-left: 2%;
 	 .square{
 	 	display: inline-block;
 	 	vertical-align: bottom;
 		display: inline-block;
-		height: 180px;
-		width: 340px;
-		margin-right: 85px;
+		height: 100%;
+		width: 18%;
+		margin-right: 6%;
 		overflow: hidden;
 			.belowText{
 				font-weight: 200;
 				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 				font-size: 15px;
+				episodeImage{
+						height: 145px;
+						width: 100%;
+						background-size: cover;
+						display: inline-block;
+				}
 				a { 
 					color: #7C7D7E;
 				}
@@ -212,109 +217,49 @@ body { position:relative;
 
 /*Episodes*/
 #CostOfOnboarding{
-	background-image: url("CostOfOnboarding.jpg");
-	height: 270px;
-	width: 100%;
-	background-size: cover;
-	display: inline-block;
+	background-image: url("CostOfOnboarding");
 }
 #EqualOpportunityEmployer{
 	background-image: url("EqualOpportunityEmployer");
-	height: 270px;
-	width: 100%;
-	background-size: cover;
-	display: inline-block;
 }
 #VettingEmployees{
 	background-image: url("VettingEmployees");
-	height: 270px;
-	width: 100%;
-	background-size: cover;
-	display: inline-block;
 }
 #BusinessBarBrawls{
 	background-image: url("BusinessBarBrawls");
-	height: 270px;
-	width: 100%;
-	background-size: cover;
-	display: inline-block;
 }
 #WhenPoliticiansOughtToStayHome{
 	background-image: url("WhenPoliticiansOughtToStayHome");
-	height: 270px;
-	width: 100%;
-	background-size: cover;
-	display: inline-block;
 }
 #SecurePasswords{
 	background-image: url("SecurePasswords");
-	height: 270px;
-	width: 100%;
-	background-size: cover;
-	display: inline-block;
 }
 #Phishing{
 	background-image: url("Phishing");
-	height: 270px;
-	width: 100%;
-	background-size: cover;
-	display: inline-block;
 }
 #SecuringYourComputer{
 	background-image: url("SecuringYourComputer");
-	height: 270px;
-	width: 100%;
-	background-size: cover;
-	display: inline-block;
 }
 #IdentifyYourID{
 	background-image: url("IdentifyYourID");
-	height: 270px;
-	width: 100%;
-	background-size: cover;
-	display: inline-block;
 }
 #ToePrintsAreIT{
 	background-image: url("ToePrintsAreIT");
-	height: 270px;
-	width: 100%;
-	background-size: cover;
-	display: inline-block;
 }
 #UnconsciousIncompetence{
 	background-image: url("UnconsciousIncompetence");
-	height: 270px;
-	width: 100%;
-	background-size: cover;
-	display: inline-block;
 }
 #ConsciousIncompetence{
 	background-image: url("ConsciousIncompetence");
-	height: 270px;
-	width: 100%;
-	background-size: cover;
-	display: inline-block;
 }
 #ConsciousCompetence{
 	background-image: url("ConsciousCompetence");
-	height: 270px;
-	width: 100%;
-	background-size: cover;
-	display: inline-block;
 }
 #InvisibleMatter{
 	background-image: url("InvisibleMatter");
-	height: 270px;
-	width: 100%;
-	background-size: cover;
-	display: inline-block;
 }
 #SignsofNothing{
 	background-image: url("SignsofNothing");
-	height: 270px;
-	width: 100%;
-	background-size: cover;
-	display: inline-block;
 }
 
 /*Category#Show*/
