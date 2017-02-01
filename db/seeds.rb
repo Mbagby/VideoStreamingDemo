@@ -13,10 +13,10 @@ episodes = Episode.create([
 	{episode_id: '1',
 	series_id:'1',
      category_id:'001',
-     title:'Sexual Harassment',
+     title:'Cost Of Onboarding',
      description: 'Episode 1',
 	 rating: '4',
-     snap_shot:'SexualHarassment'
+     snap_shot:'CostOfOnboarding'
 	},
 		{
 			episode_id: '2',
@@ -44,14 +44,6 @@ episodes = Episode.create([
      snap_shot:'BusinessBarBrawls'
 	},
 		{episode_id: '5',
-			series_id:'1',
-     category_id:'001',
-     title:'When Politicians Ought To Stay Home',
-     description: 'Episode 5',
-	 rating: '3',
-     snap_shot:'WhenPoliticiansOughtToStayHome'
-	},
-		{episode_id: '6',
 			series_id:'3',
      category_id:'003',
      title:'Secure Passwords',
@@ -59,7 +51,7 @@ episodes = Episode.create([
 	 rating: '3',
      snap_shot:'SecurePasswords'
 	},
-	{episode_id: '7',
+	{episode_id: '6',
 	series_id:'3',
      category_id:'003',
      title:'Phishing',
@@ -68,7 +60,7 @@ episodes = Episode.create([
      snap_shot:'Phishing'
 	},
 		{
-			episode_id: '8',
+			episode_id: '7',
 			series_id:'3',
      category_id:'003',
      title:'Securing Your Computer',
@@ -76,7 +68,7 @@ episodes = Episode.create([
 	 rating: '4',
      snap_shot:'SecuringYourComputer'
 	},
-		{episode_id: '9',
+		{episode_id: '8',
 			series_id:'3',
      category_id:'003',
      title:'Identify Your ID',
@@ -84,15 +76,7 @@ episodes = Episode.create([
 	 rating: '5',
      snap_shot:'IdentifyYourID'
 	},
-		{episode_id: '10',
-			series_id:'3',
-     category_id:'003',
-     title:'Toe Prints Are IT',
-     description: 'Episode 5',
-	 rating: '4',
-     snap_shot:'ToePrintsAreIT'
-	},
-		{episode_id: '11',
+		{episode_id: '9',
 			series_id:'2',
      category_id:'004',
      title:'Unconscious Incompetence',
@@ -100,7 +84,7 @@ episodes = Episode.create([
 	 rating: '3',
      snap_shot:'UnconsciousIncompetence'
 	},
-	{episode_id: '12',
+	{episode_id: '10',
 	series_id:'2',
      category_id:'004',
      title:'Conscious Incompetence',
@@ -109,7 +93,7 @@ episodes = Episode.create([
      snap_shot:'ConsciousIncompetence'
 	},
 		{
-			episode_id: '13',
+			episode_id: '11',
 			series_id:'2',
      category_id:'004',
      title:'Conscious Competence',
@@ -117,21 +101,13 @@ episodes = Episode.create([
 	 rating: '4',
      snap_shot:'ConsciousCompetence'
 	},
-		{episode_id: '14',
+		{episode_id: '12',
 			series_id:'2',
      category_id:'004',
      title:'Invisible Matter',
      description: 'Episode 4',
 	 rating: '5',
      snap_shot:'InvisibleMatter'
-	},
-		{episode_id: '15',
-			series_id:'2',
-     category_id:'004',
-     title:'Signs of Nothing',
-     description: 'Episode 5',
-	 rating: '4',
-     snap_shot:'SignsofNothing'
 	}
 
 ]);
@@ -184,6 +160,7 @@ categorythree = Category.create([{category_id: '003',
      snap_shot: 'Technology',
      }
 ]);
+
 
 	
 
