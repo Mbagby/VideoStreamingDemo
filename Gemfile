@@ -31,7 +31,6 @@ gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
 
 gem 'bootstrap-sass', '3.2.0.2'
 gem "jquery-slick-rails"
-gem 'puma'
 
 gem 'rails_12factor', group: :production
 # Use Unicorn as the app server
