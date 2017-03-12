@@ -39916,14 +39916,15 @@ body {
 /* line 131, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #preview {
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 300;
+  font-size: 17px;
+  height: 45px;
+  width: 220px;
 }
 
-/* line 135, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
-.ui.basic.button {
-  background-color: red;
-  font-size: 20px;
-  color: white;
+/* line 138, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+.ui.red.small.button {
+  border: 2px solid white;
 }
 
 /* line 141, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
@@ -39936,7 +39937,7 @@ body {
 .seasonShow #previewNow {
   position: absolute;
   bottom: 33%;
-  left: 5%;
+  left: 4.2%;
 }
 /* line 150, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .seasonShow #episodeRow {
@@ -39945,7 +39946,7 @@ body {
   width: 100%;
   bottom: 0;
   overflow: hidden;
-  margin-left: 2%;
+  margin-left: 4.2%;
 }
 /* line 157, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .seasonShow #episodeRow .square {

@@ -39916,37 +39916,39 @@ body {
 /* line 131, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #preview {
   text-transform: uppercase;
-  font-weight: 900;
-}
-/* line 134, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
-#preview .ui.basic.button {
-  background-color: red;
-  font-size: 20px;
-  color: white;
+  font-weight: 300;
+  font-size: 17px;
+  height: 45px;
+  width: 220px;
 }
 
-/* line 140, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 138, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+.ui.red.small.button {
+  border: 2px solid white;
+}
+
+/* line 141, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .seasonShow {
   width: 100%;
   height: 900px;
   position: relative;
 }
-/* line 144, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 145, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .seasonShow #previewNow {
   position: absolute;
   bottom: 33%;
   left: 5%;
 }
-/* line 149, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 150, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .seasonShow #episodeRow {
   position: absolute;
-  height: 370px;
+  height: 260px;
   width: 100%;
   bottom: 0;
   overflow: hidden;
   margin-left: 2%;
 }
-/* line 156, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 157, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .seasonShow #episodeRow .square {
   display: inline-block;
   vertical-align: bottom;
@@ -39956,24 +39958,24 @@ body {
   margin-right: 6%;
   overflow: hidden;
 }
-/* line 164, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 165, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .seasonShow #episodeRow .square .belowText {
   font-weight: 200;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
 }
-/* line 168, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 169, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .seasonShow #episodeRow .square .belowText episodeImage {
   height: 145px;
   width: 100%;
   background-size: cover;
   display: inline-block;
 }
-/* line 174, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 175, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .seasonShow #episodeRow .square .belowText a {
   color: #7C7D7E;
 }
-/* line 177, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 178, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .seasonShow #episodeRow .square .belowText #episode {
   font-size: 20px;
   font-weight: 400;
@@ -39981,35 +39983,35 @@ body {
   text-transform: uppercase;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-/* line 185, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 186, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .seasonShow #episodeRow .square .belowText #episodeTitle {
   font-size: 18px;
   margin-top: 20px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 197, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 198, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #TheHRFiles {
   background-image: url("HRFiles");
   height: 900px;
   background-size: cover;
 }
 
-/* line 202, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 203, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #Hacks {
   background-image: url("Hacks");
   height: 900px;
   background-size: cover;
 }
 
-/* line 207, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 208, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #SeaKnot {
   background-image: url("SeaKnot");
   height: 900px;
   background-size: cover;
 }
 
-/* line 213, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 214, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #formatHeaderShow {
   font-weight: 100;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -40021,7 +40023,7 @@ body {
 }
 
 /*Episodes*/
-/* line 225, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 226, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #CostOfOnboarding {
   background-image: url("CostOfOnboarding");
   height: 145px;
@@ -40030,7 +40032,7 @@ body {
   display: inline-block;
 }
 
-/* line 232, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 233, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #EqualOpportunityEmployer {
   background-image: url("EqualOpportunityEmployer");
   height: 145px;
@@ -40039,7 +40041,7 @@ body {
   display: inline-block;
 }
 
-/* line 239, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 240, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #VettingEmployees {
   background-image: url("VettingEmployees");
   height: 145px;
@@ -40048,7 +40050,7 @@ body {
   display: inline-block;
 }
 
-/* line 246, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 247, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #BusinessBarBrawls {
   background-image: url("BusinessBarBrawls");
   height: 145px;
@@ -40057,7 +40059,7 @@ body {
   display: inline-block;
 }
 
-/* line 253, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 254, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #WhenPoliticiansOughtToStayHome {
   background-image: url("WhenPoliticiansOughtToStayHome");
   height: 145px;
@@ -40066,7 +40068,7 @@ body {
   display: inline-block;
 }
 
-/* line 260, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 261, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #SecurePasswords {
   background-image: url("SecurePasswords");
   height: 145px;
@@ -40075,7 +40077,7 @@ body {
   display: inline-block;
 }
 
-/* line 267, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 268, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #Phishing {
   background-image: url("Phishing");
   height: 145px;
@@ -40084,7 +40086,7 @@ body {
   display: inline-block;
 }
 
-/* line 274, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 275, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #SecuringYourComputer {
   background-image: url("SecuringYourComputer");
   height: 145px;
@@ -40093,7 +40095,7 @@ body {
   display: inline-block;
 }
 
-/* line 281, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 282, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #IdentifyYourID {
   background-image: url("IdentifyYourID");
   height: 145px;
@@ -40102,7 +40104,7 @@ body {
   display: inline-block;
 }
 
-/* line 288, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 289, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #ToePrintsAreIT {
   background-image: url("ToePrintsAreIT");
   height: 145px;
@@ -40111,7 +40113,7 @@ body {
   display: inline-block;
 }
 
-/* line 295, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 296, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #UnconsciousIncompetence {
   background-image: url("UnconsciousIncompetence");
   height: 145px;
@@ -40120,7 +40122,7 @@ body {
   display: inline-block;
 }
 
-/* line 302, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 303, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #ConsciousIncompetence {
   background-image: url("ConsciousIncompetence");
   height: 145px;
@@ -40129,7 +40131,7 @@ body {
   display: inline-block;
 }
 
-/* line 309, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 310, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #ConsciousCompetence {
   background-image: url("ConsciousCompetence");
   height: 145px;
@@ -40138,7 +40140,7 @@ body {
   display: inline-block;
 }
 
-/* line 316, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 317, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #InvisibleMatter {
   background-image: url("InvisibleMatter");
   height: 145px;
@@ -40147,7 +40149,7 @@ body {
   display: inline-block;
 }
 
-/* line 323, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 324, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #SignsofNothing {
   background-image: url("SignsofNothing");
   height: 145px;
@@ -40158,7 +40160,7 @@ body {
 
 /*Category#Show*/
 /*Categories#Index*/
-/* line 335, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 336, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #formatHeader {
   font-weight: 100;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -40168,26 +40170,26 @@ body {
   color: #7C7D7E;
 }
 
-/* line 343, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 344, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #logo {
   display: block;
   margin-left: auto;
 }
 
-/* line 347, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 348, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .ui.image {
   height: 100px;
   width: 100px;
 }
 
-/* line 351, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 352, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .ui.secondary.menu .item {
   font-size: 17px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #7C7D7E;
 }
 
-/* line 357, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 358, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .rows {
   height: 100%;
   width: 100%;
@@ -40196,14 +40198,14 @@ body {
   color: #7C7D7E;
   text-transform: uppercase;
 }
-/* line 364, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 365, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .rows .row {
   margin-bottom: 5px;
   overflow: hidden;
 }
 
 /*CatgoriesImages*/
-/* line 371, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 372, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #EthicsAndCompliance {
   background-image: url("EthicsAndCompliance");
   background-size: cover;
@@ -40211,7 +40213,7 @@ body {
   color: #7C7D7E;
 }
 
-/* line 378, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 379, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #Technology {
   background-image: url("Technology");
   background-size: cover;
@@ -40220,7 +40222,7 @@ body {
   color: #7C7D7E;
 }
 
-/* line 385, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 386, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #Consciousness {
   background-image: url("Consciousness");
   background-size: cover;
@@ -40231,13 +40233,13 @@ body {
 
 /*SeasonsImages*/
 /*Categories#Index*/
-/* line 405, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 406, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #snapshot {
   background-image: url("GreenSparkly");
   width: 255px;
   height: 175px;
 }
-/* line 409, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 410, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #snapshot a {
   color: white;
   float: right;
@@ -40252,13 +40254,13 @@ body {
   padding-bottom: 2px;
 }
 
-/* line 423, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 424, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .videoSize {
   width: 100%;
   height: 508px;
 }
 
-/* line 427, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 428, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .videoLarge {
   height: 740px;
   width: 100%;
@@ -40266,7 +40268,7 @@ body {
   margin-top: 125px;
 }
 
-/* line 434, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 435, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .bannerVideo {
   background-image: url("GreenSparkly.jpg");
   background-size: cover;
@@ -40276,26 +40278,26 @@ body {
 }
 
 /*SignUp and Login*/
-/* line 447, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 448, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #colorFix {
   border-color: white;
 }
-/* line 449, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 450, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #colorFix .ui.form .field.field {
   border-color: gray;
 }
 
-/* line 454, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 455, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #bottomMenu {
   display: none !important;
 }
 
-/* line 457, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 458, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #homeHeadingShort {
   display: none !important;
 }
 
-/* line 460, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 461, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .pictureBackground {
   background-image: url("LoginBackground");
   background-repeat: no-repeat;
@@ -40304,43 +40306,43 @@ body {
   height: 100%;
   width: 100%;
 }
-/* line 467, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 468, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .pictureBackground .ui.large.form {
   background-color: white;
   border-radius: 3px;
 }
-/* line 472, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 473, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .pictureBackground #pageContent #linkTo {
   width: 89%;
   margin: 0 auto;
 }
-/* line 476, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 477, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .pictureBackground #pageContent #boxSignup {
   width: 89%;
   float: center;
   margin: 0 auto;
   margin-bottom: 10px;
 }
-/* line 482, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 483, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .pictureBackground #pageContent .field {
   font-size: 15px;
 }
-/* line 485, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 486, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .pictureBackground #pageContent p a {
   font-size: 12px;
 }
-/* line 488, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 489, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .pictureBackground #pageContent a {
   color: #7C7D7E;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   float: right;
 }
-/* line 494, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 495, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .pictureBackground #pageContent .alignCenter {
   text-align: center;
 }
-/* line 497, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 498, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .pictureBackground #pageContent #loginButton {
   background-color: white;
   border: 1px solid #7C7D7E;
@@ -40348,7 +40350,7 @@ body {
   color: #7C7D7E;
   font-size: 20px;
 }
-/* line 504, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 505, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .pictureBackground #pageContent #signupHead {
   margin-top: 100px;
   color: #7C7D7E;
@@ -40359,7 +40361,7 @@ body {
   padding-bottom: 7px;
   padding-right: 20px;
 }
-/* line 514, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 515, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .pictureBackground #pageContent #loginSignupHead {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 350px;
@@ -40370,7 +40372,7 @@ body {
   padding-bottom: 7px;
   padding-right: 20px;
 }
-/* line 524, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 525, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .pictureBackground #pageContent .content {
   background-color: white;
   padding-top: 5px;
@@ -40380,13 +40382,13 @@ body {
   border-radius: 3px;
   font-family: 'Open Sans', sans-serif;
 }
-/* line 532, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 533, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 .pictureBackground #pageContent .content .description {
   font-size: 20px;
 }
 
 /*Index Users Page*/
-/* line 543, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 544, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #sideMenu {
   opacity: .9;
   position: fixed;
@@ -40395,7 +40397,7 @@ body {
   float: left;
 }
 
-/* line 553, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 554, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #topMenu {
   position: fixed;
   top: 0;
@@ -40403,7 +40405,7 @@ body {
   background-color: white;
 }
 
-/* line 560, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
+/* line 561, /Users/MadelineBagby/Desktop/VideoStreamingDemo/app/assets/stylesheets/application.css.scss */
 #scrolled {
   background-color: white;
   opacity: .9;
