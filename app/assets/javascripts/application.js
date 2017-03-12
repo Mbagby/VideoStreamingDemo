@@ -30,51 +30,23 @@ $('.ui.radio.checkbox')
 
 $('#preview').click(function(){
 	$('#clicky').modal('show');
-  	$('.videoSize').get(0).play();
 });
-
-// $('body').click(function(){
-// 	if ($('#tool1').hasClass('visible')){
-// 		$('.videoSize').get(0).pause();
-// 		}else{}
-// 	});
-
-// $('body').click(function(){
-// 	if ($('#tool2').hasClass('visible')){
-// 		$('.videoSize').get(0).pause();
-// 		}else{}
-// 	});
 
 $('.SocMe').click(function(){
 	$('#tool1').modal('show');
-  	// $('.videoSize').get(0).play();
 });
 $('.LinkedIn').click(function(){
 	$('#tool2').modal('show');
-  	// $('.videoSize').get(0).play();
 });
 
 $('.LowCQ').click(function(){
 	$('#tool3').modal('show');
-  	// $('.videoSize').get(0).play();
 });
 $('.HighCQ').click(function(){
 	$('#tool4').modal('show');
-  	// $('.videoSize').get(0).play();
 });
 
-// $('body').click(function(){
-// 	if ($('#tool4').hasClass('visible')){
-// 		$('.videoSize').get(0).pause();
-// 		}else{}
-// 	});
 
-
-
-
-// var categoryImages = 'url("../assets/'+($('#categoryImages').attr('class')) + '")';
-// var class = ($('#categoryImages').attr('class'));
-// $('.class').css('background-image', categoryImages); 
 
 
 
