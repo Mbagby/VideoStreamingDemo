@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -29,8 +29,10 @@ gem 'pry-rails'
 gem 'pry'
 gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
 
+
 gem 'bootstrap-sass', '3.2.0.2'
 gem "jquery-slick-rails"
+gem 'heroku-deflater', '~> 0.6.3'
 
 gem 'rails_12factor', group: :production
 # Use Unicorn as the app server
